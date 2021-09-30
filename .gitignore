@@ -3,5 +3,6 @@ lib/
 out/
 target/
 .idea/
+.DS_Store/
+web.xml
 .DS_Store
-
