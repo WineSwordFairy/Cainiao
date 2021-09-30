@@ -1,0 +1,7 @@
+#忽略lib目录
+lib/
+out/
+target/
+.idea/
+.DS_Store
+
