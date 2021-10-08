@@ -34,7 +34,7 @@ public class CainiaoController {
 
 
     public static void main(String[] args) {
-        System.out.println("sss-------main++sss");
+        System.out.println("我是李逍遥");
     }
 
     @RequestMapping("/send")
