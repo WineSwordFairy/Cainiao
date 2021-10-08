@@ -34,15 +34,7 @@ public class CainiaoController {
 
 
     public static void main(String[] args) {
-        List<CainiaoController> list = new ArrayList<>();
-        try {
-            while (true) {
-                list.add(new CainiaoController());
-                Thread.sleep(1000);
-            }
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        System.out.println("sss-------main++sss");
     }
 
     @RequestMapping("/send")
