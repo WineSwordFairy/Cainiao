@@ -20,7 +20,9 @@ import java.util.List;
 @RequestMapping("/cainiao")
 public class CainiaoController {
 
+    private Byte[] bytes = new Byte[20];
 
+    Object lick = new Object();
     @Autowired
     public CainiaoService cainiaoService;
 
@@ -32,13 +34,11 @@ public class CainiaoController {
 
 
     public static void main(String[] args) {
-
-        List<String> l = new ArrayList<>();
-        l.add("eeeeee");
+        List<CainiaoController> list = new ArrayList<>();
         try {
             while (true) {
-                l.add("HELLOOOOO!");
-                Thread.sleep(10);
+                list.add(new CainiaoController());
+                Thread.sleep(1000);
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
